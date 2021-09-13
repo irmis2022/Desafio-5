@@ -1,0 +1,17 @@
+/* SECTION */
+$color6: #039;
+$color7: #666;
+
+#subtitulo2{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size: $fuente/2;
+    color: $color6;	
+}
+
+#ladoderecho{
+    margin: -30px 20px 0px 0px;
+    float:right; 
+    width: 55%; 
+    text-align:justify;	
+    color: $color7;	
+}
