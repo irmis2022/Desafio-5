@@ -1,0 +1,24 @@
+/*estilo  grid*/
+
+.grid-container{
+    display: grid;
+    height:200px;
+    background-color: rgb(186, 216, 147);
+    grid-template-columns: auto 180px 180px 180px auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+   
+}
+
+.grid-container div{
+    background-color: rgb(102, 95, 207);
+    text-align:center;
+    color: $color2;
+    border:1px solid $color3;
+}
+
+/*Estilo transformaciones*/
+.imagen:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,53 @@
+/*Estilo para el formulario*/
+#formulario{
+    border:solid 2px #13090a;
+    background:#8d8b8b;
+    margin:0 auto;
+    width:320px;
+    padding: 10px;
+}
+
+/*Estilo para el titulo*/
+
+    h2{
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:2px;
+}
+
+/*Estilo para el texto y su línea*/
+#linea{
+    color: $color7;
+    margin-bottom:5px;
+    border-bottom:solid 1px $color2;
+    padding-bottom:5px;
+}
+
+/*Estilo para los textos del formulario*/
+#label{
+    display: block;
+    font-weight: bold;
+    width: 240px;
+    font-size: 12px;
+}
+/*Estilo para la cajas de texto simple*/
+#caja{
+    padding:4px;
+    border:solid 1px #61b413;
+    margin:2px 0 5px 0;
+}
+
+/*Estilo para el boton Registrar*/
+#boton{
+    clear:both;
+    margin-left:150px;
+    width:125px;
+    height:31px;
+    background: $color7;
+    text-align:center;
+    line-height:31px;
+    color: $color2;
+    font-size:11px;
+    font-weight:bold;
+}
+

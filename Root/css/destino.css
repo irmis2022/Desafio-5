@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* HEADER */
+/*Estilo para todo el documento*/
+body {
+  background-color: #1ed7a9;
+  font-family: Tahoma;
+  font-size: 11px;
+  width: 1200px;
+  margin: auto; }
+
+/*Estilo para la imagen arriba*/
+#logo {
+  background: url(../img/logo2.jpg) no-repeat right;
+  margin: 0 0px;
+  background-size: 55%;
+  padding: 25em 0em 5em 0em;
+  text-transform: uppercase; }
+
+/*Estilo para la etiqueta a incluida en H1*/
+#logo
+h1 a {
+  margin: 0em;
+  padding: 0;
+  letter-spacing: -.1em;
+  text-decoration: #5653db;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #FFFFFF; }
+
+/*Estilo para el subtitulo "BIENVENIDOS A NUESTRO SITIO WEB"*/
+#subtitulo {
+  padding: 0em;
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #0e1414; }
+
+/*Estilo para los elementos de la lista del menu*/
+#menu
+ul {
+  list-style: none;
+  /*Estilo para la etiqueta del Menu de opciones*/ }
+  #menu
+ul li {
+    display: inline-block;
+    margin-top: -2em; }
+  #menu
+ul a {
+    display: block;
+    float: left;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    background-color: #178EAE;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #0C749C;
+    text-transform: uppercase;
+    font-size: .90em;
+    background-color: #FFFFFF; }
+
+/* SECTION */
+/*Estilo para la seccion que muestra el contenido*/
+#seccion {
+  width: 1150px;
+  padding: 0px 10px;
+  background: #FFFFFF;
+  height: 290px; }
+
+/*Estilo para la seccion recurs0s*/
+#seccionServicios {
+  width: 1150px;
+  padding: 20px 40px;
+  background: #FFFFFF;
+  height: 280px; }
+
+/*Estilo para la imagen que se encuentra dentro de la seccion*/
+#imagen {
+  margin: 0px;
+  width: 380px;
+  height: 200px;
+  text-align: center; }
+
+/*Estilo para el titulo dentro de la seccion*/
+#subtitulo2 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 25px;
+  color: #039; }
+
+/*Estilo para el texto del lado derecho*/
+#ladoderecho {
+  margin: -30px 20px 0px 0px;
+  float: right;
+  width: 55%;
+  text-align: justify;
+  color: #666; }
+
+/*Estilo para todo los parrafos del documento*/
+p {
+  font-family: Tahoma;
+  font-size: 12pt; }
+
+/*Estilo para el texto mostrado en el lado izquierdo NOSOTROS*/
+#ladoizquierdo {
+  margin: -5px 20px 0px 0px;
+  float: left;
+  width: 105%;
+  font-size: 11px;
+  text-align: justify;
+  color: #666; }
+
+/**/
+#columna {
+  margin: -5px 20px 0px 0px;
+  float: left;
+  width: 30%;
+  color: #666; }
+
+#seccionextensa {
+  width: 1065px;
+  padding: 20px 40px;
+  background: #FFFFFF;
+  height: auto; }
+
+#centrado {
+  text-align: center; }
+
+#lista li {
+  font-size: 11px; }
+
+/* FOOTER */
+/*Estilo para el pie del documento */
+#pie {
+  text-align: center;
+  background-color: linear-gradient(#1ea8e9, white); }
+
+/*Estilo gradiente */
+#pie {
+  background-image: linear-gradient(to right, #7c3a3a, #ffcccc); }
+
+/*Estilo para el formulario*/
+#formulario {
+  border: solid 2px #13090a;
+  background: #8d8b8b;
+  margin: 0 auto;
+  width: 320px;
+  padding: 10px; }
+
+/*Estilo para el titulo*/
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px; }
+
+/*Estilo para el texto y su línea*/
+#linea {
+  color: #666;
+  margin-bottom: 5px;
+  border-bottom: solid 1px #FFFFFF;
+  padding-bottom: 5px; }
+
+/*Estilo para los textos del formulario*/
+#label {
+  display: block;
+  font-weight: bold;
+  width: 240px;
+  font-size: 12px; }
+
+/*Estilo para la cajas de texto simple*/
+#caja {
+  padding: 4px;
+  border: solid 1px #61b413;
+  margin: 2px 0 5px 0; }
+
+/*Estilo para el boton Registrar*/
+#boton {
+  clear: both;
+  margin-left: 150px;
+  width: 125px;
+  height: 31px;
+  background: #666;
+  text-align: center;
+  line-height: 31px;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: bold; }
+
+/*Añadiendo Flex*/
+.flex-container {
+  box-sizing: border-box; }
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 220px;
+  justify-content: center;
+  background-color: #4c6acc;
+  padding: 10px;
+  border: 2px solid #694a4a; }
+
+.flex-container div {
+  background-color: #d43636;
+  width: 40px;
+  margin: 0px;
+  text-align: center;
+  line-height: 5px;
+  font-size: 30px;
+  border: 2px solid black;
+  flex-grow: 1; }
+
+/*estilo  grid*/
+.grid-container {
+  display: grid;
+  height: 200px;
+  background-color: #bad893;
+  grid-template-columns: auto 180px 180px 180px auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center; }
+
+.grid-container div {
+  background-color: #665fcf;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #0e1414; }
+
+/*Estilo transformaciones*/
+.imagen:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+/*Responsive*/
+/*Media queries TABLET */
+@media (min-width: 577px) and (max-width: 991px) {
+  body {
+    background-color: lightgreen; } }
+
+/*Media queries SMARTPHONE */
+@media (min-width: 576px) {
+  body {
+    background-color: skyblue; } }
+
+@media (min-width: 768px) and (landscape) {
+  body {
+    background-color: skyblue; } }

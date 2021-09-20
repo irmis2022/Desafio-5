@@ -1,0 +1,20 @@
+/*Responsive*/
+/*Media queries TABLET */
+@media (min-width: 577px) and (max-width: 991px){
+    body{
+        background-color: lightgreen;
+    }
+}
+
+/*Media queries SMARTPHONE */
+@media (min-width: 576px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media (min-width: 768px) and (landscape){
+    body{
+        background-color: skyblue;
+    }
+}

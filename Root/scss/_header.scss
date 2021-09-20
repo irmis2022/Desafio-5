@@ -1,0 +1,70 @@
+/* HEADER */
+$color1:#1ed7a9;
+$color2: #FFFFFF;
+$color3: #0e1414;
+$color4: #178EAE;
+$texto1: uppercase;
+$texto2: none;
+$fuente: 50px;
+$ancho: 1000px;
+
+/*Estilo para todo el documento*/
+body {
+    background-color: $color1;
+    font-family: Tahoma;
+    font-size: ($fuente/5)+1;
+    width: $ancho+200px;
+    margin: auto;
+}
+/*Estilo para la imagen arriba*/
+#logo {	
+    background: url(../img/logo2.jpg)  no-repeat right;
+    margin: 0 0px;
+    background-size: 55%;
+    padding: 25em 0em 5em 0em;
+    text-transform: $texto1;
+	
+}
+/*Estilo para la etiqueta a incluida en H1*/
+#logo
+    h1 a {
+    margin: 0em;
+    padding: 0;
+    letter-spacing: -.1em;
+    text-decoration: rgb(86, 83, 219);
+    font-size: 1.7em;
+    font-weight: bold;
+    background-color: $color2;
+}
+/*Estilo para el subtitulo "BIENVENIDOS A NUESTRO SITIO WEB"*/
+#subtitulo {
+    padding: 0em;
+    margin-top:1em;
+    font-size: 1.5em;
+    color: $color3;
+    
+}
+/*Estilo para los elementos de la lista del menu*/
+#menu
+ul{
+    list-style: none;
+    li {
+        display: inline-block;
+        margin-top: -2em;
+    }
+ /*Estilo para la etiqueta del Menu de opciones*/       
+        a {
+            display: block;
+            float: left;
+            margin-right: 0.12em;
+            padding: 1em 1.5em;
+            background-color: $color4;
+            box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.25);
+            text-decoration: $texto2;
+            text-shadow: 1px 1px 0px #0C749C;
+            text-transform: $texto1;
+            font-size: .90em;
+            background-color: $color2;   
+        }
+    
+}

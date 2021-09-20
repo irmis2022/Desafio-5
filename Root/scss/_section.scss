@@ -1,0 +1,80 @@
+/* SECTION */
+
+$color6: #039;
+$color7: #666;
+$alto: 300px;
+
+/*Estilo para la seccion que muestra el contenido*/
+#seccion{
+    width:$ancho + 150px;
+    padding: 0px 10px;
+    background: $color2;
+    height:$alto - 10px;	
+}
+
+/*Estilo para la seccion recurs0s*/
+#seccionServicios{
+    width:$ancho + 150px;
+    padding: 20px 40px;
+    background: $color2;
+    height:$alto - 20px;	
+}
+
+/*Estilo para la imagen que se encuentra dentro de la seccion*/
+#imagen{
+    margin: 0px;
+    width:$ancho - 620px;
+    height:$alto - 100px;
+    text-align:center;	
+}
+
+/*Estilo para el titulo dentro de la seccion*/
+#subtitulo2{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size: $fuente/2;
+    color: $color6;	
+}
+/*Estilo para el texto del lado derecho*/
+#ladoderecho{
+    margin: -30px 20px 0px 0px;
+    float:right; 
+    width: 55%; 
+    text-align:justify;	
+    color: $color7;	
+}
+/*Estilo para todo los parrafos del documento*/
+p {
+    font-family:Tahoma;
+    font-size:12pt;	
+}
+
+/*Estilo para el texto mostrado en el lado izquierdo NOSOTROS*/
+#ladoizquierdo{
+	margin: -5px 20px 0px 0px;
+	float:left; 
+	width: 105%; 
+	font-size:11px;
+	text-align:justify;		
+	color: $color7;
+}
+
+/**/
+#columna{
+	margin: -5px 20px 0px 0px;
+	float:left; 
+	width: 30%; 		
+	color: $color7;
+}
+#seccionextensa{
+	width:$ancho + 65px;
+	padding: 20px 40px;
+	background: $color2;
+	height:auto;		
+}
+#centrado{
+	text-align:center;	
+}
+#lista li{
+	font-size:11px;	
+}
+

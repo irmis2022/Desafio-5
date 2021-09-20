@@ -1,0 +1,11 @@
+/* FOOTER */
+/*Estilo para el pie del documento */
+$color5: linear-gradient(rgb(30, 168, 233), white);
+#pie{
+    text-align: center;
+    background-color: $color5;
+}
+/*Estilo gradiente */
+#pie{
+    background-image: linear-gradient(to right, rgb(124, 58, 58), #ffcccc);	
+}

@@ -1,0 +1,25 @@
+/*Añadiendo Flex*/
+.flex-container{
+    box-sizing:border-box;
+}
+
+.flex-container{
+    display:flex;
+    flex-flow: row wrap;
+    height:$alto - 80px;
+    justify-content:center;
+    background-color:rgb(76, 106, 204);
+    padding:10px;
+    border:2px solid rgb(105, 74, 74);
+}
+
+.flex-container div{
+    background-color: rgb(212, 54, 54);
+    width: 40px;
+    margin: 0px;
+    text-align:center;
+    line-height:5px;
+    font-size:30px;
+    border:2px solid black;
+    flex-grow: 1;
+}
